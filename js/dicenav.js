@@ -9,7 +9,7 @@ var dice = {
 
 function printNumber(number) {
   var placeholder = document.getElementById('navi');
-  if (number<="10"){
+  if (number<"10"){
     placeholder.innerHTML = "0"+number;
   }
   else{
