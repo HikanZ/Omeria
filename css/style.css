@@ -21,7 +21,7 @@ nav{
   display: flex;
   justify-content: space-around;
   min-height: 4vh;
-  height: 7vh;
+  height: 5vh;
   align-items: center;
   z-index: 2020;
   font-family: 'Poppins', sans-serif;
