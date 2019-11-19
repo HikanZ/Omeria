@@ -82,7 +82,6 @@ ul a{
   background-image: url('../img/castlefull.png');
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
   display: table;
   width: 100%;
 }
