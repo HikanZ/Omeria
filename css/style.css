@@ -142,7 +142,7 @@ h1{
   left: 3px;
   margin: auto;
   z-index: 10;
-  cursor: none;
+  cursor: crosshair;
 }
 .hexagon {
   position: relative;
