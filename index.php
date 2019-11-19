@@ -7,11 +7,19 @@
 
 
 
+
   <nav id='nav'>
     <div class="logo">
+
       <h4><a href="#">OMERIA</a></h4>
     </div>
     <ul>
+      <li><div id="container">
+            <div id="navi">20</div>
+            <div id="infoi" class="hexagon">
+            </div>
+          </div>
+      </li>
       <li><a href = "#section1"> home </a></li>
       <li><a href = "#section2"> news </a></li>
       <li><a href = "#section3"> blog </a></li>
@@ -21,20 +29,6 @@
   </nav>
   <!--div class="verticalspace"></div-->
 
-  <script type="text/javascript">
-    var nav = document.getElementById('nav');
-
-      window.onscroll = function(){
-        if (window.pageYOffset >100){
-          nav.style.background = "#fff";
-        }
-        else{
-          nav.style.background = "transparent";
-        }
-      }
-  </script>
-
-
   <main>
 
 
@@ -43,6 +37,9 @@
     </div>
     <div id ="section2">
       <h1> NEWS SECTION </h1>
+      <p id="placeholder">
+      </p>
+      <button id="btn2">Roll Dice</button>
     </div>
     <div id ="section3">
       <h1> BLOG SECTION </h1>
@@ -60,3 +57,6 @@
 
 
   </main>
+
+  <script src="js/nav.js"></script>
+  <script src="js/dicenav.js"></script>

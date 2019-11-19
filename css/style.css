@@ -35,6 +35,10 @@ ul{
   width: 45%;
 }
 li{
+  /*border: 1px solid #101010;*/
+  /*border-radius: 5px;*/
+  padding: 2px;
+  /*text-align: center;*/
   /*float: left;*/
 }
 ul a{
@@ -90,6 +94,7 @@ ul a{
   background: yellow;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 #section3{
   height: 700px;
@@ -114,3 +119,77 @@ h1{
   text-align: center;
   padding: 0;
 }
+/*hexagon*/
+#container {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  align-items: center;
+}
+#navi,
+#infoi {
+  //width: 100%;
+  //height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#navi {
+  color: #fff;
+  display: block;
+  width: 30px;
+  font-size: 20px;
+  left: 3px;
+  margin: auto;
+  z-index: 10;
+}
+.hexagon {
+  position: relative;
+  width: 30px;
+  height: 17.32px;
+  background-color: #101010;
+  margin: 2.89px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 8.66px solid #101010;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 8.66px solid #101010;
+}
+/*hexagon end*/
+/*dice*/
+button {
+  background-color: rgb(82, 186, 179);
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  align-self: center;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+}
+#placeholder {
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size:80px;
+}
+/*dice end*/
