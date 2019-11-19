@@ -142,6 +142,7 @@ h1{
   left: 3px;
   margin: auto;
   z-index: 10;
+  cursor: crosshair;
 }
 .hexagon {
   position: relative;
@@ -181,7 +182,7 @@ button {
   align-self: center;
   text-transform: uppercase;
   width: 200px;
-  cursor: pointer;
+  cursor: none;
 }
 #placeholder {
   height: 100px;
