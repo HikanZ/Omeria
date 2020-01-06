@@ -3160,3 +3160,102 @@ h1, h2, h3, h4, h5, h6 {
 
 /* End About Area css
 ============================================================================================ */
+
+/* party are */
+
+.our-team{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease-in-out 0s;
+}
+.our-team:hover img{ transform: scale(1.2); }
+.our-team .social{
+    list-style: none;
+    padding: 30px 15px;
+    margin: 0;
+    background: #ba9236;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-team:hover .social{ left: 0; }
+.our-team .social li{ display: block; }
+.our-team .social li a{
+    display: block;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+}
+.our-team .social li:first-child a{ padding-top: 0; }
+.our-team .social li:last-child a{ padding-bottom: 0; }
+.our-team .social li a:hover{ color: #000; }
+.our-team .team-content{
+    width: 100%;
+    padding: 15px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.our-team .title{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0 0 5px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 14px;
+    color: #ba9236;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+/* End Party Area */
+
+/* Start Team Area css
+============================================================================================ */
+@media (max-width: 767px) {
+  .team-area .col-lg-4:last-child .single-team-member {
+    margin-bottom: 0; } }
+
+.single-team-member .member-img {
+  overflow: hidden; }
+  .single-team-member .member-img img {
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+.single-team-member .proff {
+  margin-top: 30px;
+  text-align: center; }
+  @media (max-width: 767px) {
+    .single-team-member .proff {
+      margin-top: 15px; } }
+  .single-team-member .proff h4 {
+    font-weight: 700;
+    margin-bottom: 5px; }
+  .single-team-member .proff p {
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px; }
+@media (max-width: 767px) {
+  .single-team-member {
+    margin-bottom: 30px;
+    text-align: center; } }
+.single-team-member:hover .member-img img {
+  transform: scale(1.1); }
+
+/* End Team Area css
+============================================================================================ */

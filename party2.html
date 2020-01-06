@@ -15,9 +15,10 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Contact</title>
+	<title>Party | Crônicas de Omeria</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Roboto:400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 	<!--
 			CSS
 			============================================= -->
@@ -35,15 +36,14 @@
 <body>
 
 	<!--================ Start Header Area =================-->
-	<!-- it is in php on top of this document -->
 	<header class="header-area">
 		<div class="container">
 			<div class="header-wrap">
 				<div class="header-top d-flex justify-content-between align-items-center navbar-expand-md">
 					<div class="col menu-left">
-						<a href="index.php">Home</a>
-						<a href="omeria.php">Mundo</a>
-						<a href="party.html">Party</a>
+						<a href="index.html">Home</a>
+						<a href="menu.html">menu</a>
+						<a class="active" href="about.html">about</a>
 					</div>
 					<div class="col-3 logo">
 						<a href="index.html"><img class="mx-auto" src="img/logo.png" alt=""></a>
@@ -59,35 +59,35 @@
 						<div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
 							<ul class="navbar-nav justify-content-center w-100">
 								<li class="nav-item hide-lg">
-									<a class="nav-link" href="index.php">Home</a>
+									<a class="nav-link" href="index.html">Home</a>
 								</li>
 								<li class="nav-item hide-lg">
-									<a class="nav-link" href="omeria.php">Mundo</a>
+									<a class="nav-link" href="menu.html">menu</a>
 								</li>
 								<li class="nav-item hide-lg">
-									<a class="nav-link" href="party.html">Party</a>
+									<a class="nav-link" href="about.html">about</a>
 								</li>
 								<!-- Dropdown -->
 								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
-										Homebrew
+									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+										Pages
 									</a>
 									<div class="dropdown-menu">
-										<a class="dropdown-item" href="contact.html">Contato?</a>
+										<a class="dropdown-item" href="contact.html">Contact</a>
 										<a class="dropdown-item" href="elements.html">Elements</a>
 									</div>
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-										Sessões
+										Blog
 									</a>
 									<div class="dropdown-menu">
 										<a class="dropdown-item" href="blog-home.html">Blog</a>
-										<a class="dropdown-item" href="blog-single.html">Detalhes Blog</a>
+										<a class="dropdown-item" href="blog-single.html">Blog Detail</a>
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Galeria</a>
+									<a class="nav-link" href="gallery.html">Gallery</a>
 								</li>
 							</ul>
 						</div>
@@ -103,13 +103,13 @@
 		<div class="container">
 			<div class="row height align-items-center justify-content-center">
 				<div class="banner-content col-lg-6">
-					<h1>Page</h1>
+					<h1>Party</h1>
 					<hr>
 					<div class="breadcrmb">
 						<p>
-							<a href="index.php">home</a>
+							<a href="index.html">home</a>
 							<span class="lnr lnr-arrow-right"></span>
-							<a href="contact.html">contact</a>
+							<a href="about.html">Party</a>
 						</p>
 					</div>
 				</div>
@@ -118,67 +118,144 @@
 	</section>
 	<!--================ End banner Area =================-->
 
-	<!--================ Contact Area =================-->
-	<!--section class="contact-area section-gap">
+	<!--================ About Area =================-->
+	<section class="about-area section-gap-top">
 		<div class="container">
-			<div class="row align-items-start">
+			<div class="row align-items-center">
 				<div class="col-lg-6 col-md-6">
-					<div id="contactMap"></div>
+					<div class="">
+						<img class="img-fluid" src="img/about-img.jpg" alt="">
+					</div>
 				</div>
 				<div class="offset-lg-1 col-lg-5 col-md-6">
 					<div class="section-title relative">
 						<h1>
+							About <br>
 							Rooftop <br>
-							Fine Dinning <br>
-							Restaurant <br>
+							Dinning
 						</h1>
-						<div class="mb-20">
-							<p>432 Wyandotte Ave, Lakewood, OH, 44107</p>
-							<p>432 Wyandotte Ave, Lakewood, OH, 44107</p>
-						</div>
-						<div class="mb-20">
-							<p>012 44 (216) 785-9346</p>
-							<p>012 44 (216) 785-9346</p>
-							<p>012 44 (216) 785-9346</p>
-						</div>
-						<div class="mail">
-							<p>info@rooftoprestaurant.co.uk</p>
-							<p>support@rooftoprestaurant.com</p>
-						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
 					</div>
-					<form class="contact-form" id="myForm" action="">
-						<div class="row">
-							<div class="col-lg-12 d-flex flex-column mb-20">
-								<input name="contact-name" placeholder="Contact Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contact Name'"
-								 class="form-control" required="" type="text">
-							</div>
-							<div class="col-lg-12 d-flex flex-column mb-20">
-								<input name="email-address" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'"
-								 class="form-control" required="" type="email">
-							</div>
-							<div class="col-lg-12 d-flex flex-column mb-20">
-								<input name="phone-number" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'"
-								 class="form-control" required="" type="text">
-							</div>
-							<div class="col-lg-12 d-flex flex-column">
-								<textarea class="form-control" name="post-message" placeholder="Post a message" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Post a message'" required=""></textarea>
-							</div>
-
-							<div class="col-lg-12 d-flex justify-content-end">
-								<button class="primary-btn mt-30 text-uppercase">Send Message</button>
-							</div>
-							<div class="alert-msg"></div>
-						</div>
-					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================ End Contact Area =================-->
+	<!--================ End About Area =================-->
+
+	<!--================ Start Party Area =================-->
+	<section class="about-area section-gap-top">
+		<div class="container">
+	    <div class="row align-items-center">
+	        <div class="col-md-3 col-sm-6">
+	            <div class="our-team">
+	                <img src="images/img-1.jpg" alt="">
+	                <ul class="social">
+	                    <li><a href="#" class="fab fa-facebook"></a></li>
+	                    <li><a href="#" class="fab fa-instagram"></a></li>
+	                    <li><a href="#" class="fab fa-google-plus"></a></li>
+	                    <li><a href="#" class="fab fa-linkedin"></a></li>
+	                    <li><a href="#" class="fab fa-twitter"></a></li>
+	                </ul>
+	                <div class="team-content">
+	                    <h3 class="title">Williamson</h3>
+	                    <span class="post">Web Developer</span>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="col-md-3 col-sm-6">
+	            <div class="our-team">
+	                <img src="images/img-1.png" alt="">
+	                <ul class="social">
+	                    <li><a href="#" class="fab fa-facebook"></a></li>
+	                    <li><a href="#" class="fab fa-instagram"></a></li>
+	                    <li><a href="#" class="fab fa-google-plus"></a></li>
+	                    <li><a href="#" class="fab fa-linkedin"></a></li>
+	                    <li><a href="#" class="fab fa-twitter"></a></li>
+	                </ul>
+	                <div class="team-content">
+	                    <h3 class="title">Kristiana</h3>
+	                    <span class="post">Web Designer</span>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		</div>
+	</section>
+
+	<!--================ End Party Area =================-->
+
+
+	<!--================ Start Call To Action Area =================-->
+	<section class="container section-gap-top">
+		<div class="callto-action-area relative">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-12 p-0">
+					<div class="cta-owl owl-carousel">
+						<div class="item">
+							<div class="cta-img">
+								<img src="img/callaction-bg.jpg" class="img-fluid" alt="">
+							</div>
+							<div class="text-box text-center">
+								<h3 class="mb-10">Main Course</h3>
+								<p>
+									Chicken Steak with gerlic bread & Fries
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cta-img">
+								<img src="img/callaction-bg.jpg" class="img-fluid" alt="">
+							</div>
+							<div class="text-box text-center">
+								<h3 class="mb-10">Main Course</h3>
+								<p>
+									Chicken Steak with gerlic bread & Fries
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Call To Action Area =================-->
+
+	<!--================ Chefs Quotes Area =================-->
+	<section class="chefs-quotes-area section-gap">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-5">
+					<div class="section-title relative">
+						<h1>
+							Chef’s <br>
+							Quotes
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Quotes
+						</p>
+						<img src="img/signature.png" class="img-fluid" alt="">
+					</div>
+				</div>
+				<div class="offset-lg-1 col-lg-6 col-md-6">
+					<div>
+						<img class="chef-img" src="img/chefs-quotes.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Chefs Quotes Area =================-->
 
 	<!--================ Start Footer Area =================-->
-	<!--footer class="footer-area section-gap">
+	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-md-6 col-sm-6">

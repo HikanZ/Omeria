@@ -42,9 +42,9 @@
 			<div class="header-wrap">
 				<div class="header-top d-flex justify-content-between align-items-center navbar-expand-md">
 					<div class="col menu-left">
-						<a class="active" href="index.php">Home</a>
-						<a href="omeria.php">Mundo</a>
-						<a href="party.html">Party</a>
+						<a class="active" href="index.html">Home</a>
+						<a href="world.php">Mundo</a>
+						<a href="about.html">Party</a>
 					</div>
 					<div class="col-3 logo">
 						<a href="index.html"><img class="mx-auto" src="img/logo.png" alt=""></a>
@@ -63,10 +63,10 @@
 									<a class="nav-link" href="index.php">Home</a>
 								</li>
 								<li class="nav-item hide-lg">
-									<a class="nav-link" href="omeria.php">Mundo</a>
+									<a class="nav-link" href="menu.html">Mundo</a>
 								</li>
 								<li class="nav-item hide-lg">
-									<a class="nav-link" href="party.html">Party</a>
+									<a class="nav-link" href="about.html">Party</a>
 								</li>
 								<!-- Dropdown -->
 								<li class="nav-item dropdown">
@@ -88,7 +88,7 @@
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Galeria</a>
+									<a class="nav-link" href="gallery.html">Créditos</a>
 								</li>
 							</ul>
 						</div>
@@ -145,7 +145,7 @@
 						<div class="about-content">
 							<h1>Omeria é um mundo <br> de alta fantasia</h1>
 							<p>inspirado de diversas fontes da cultura pop. Indo de regiões onde magos são o pilar da sociedade ou onde são considerados os piores. Balões mágicos e navios voadores e muito mais.</p>
-							<a href="omeria.php" class="primary-btn">Conheça mais</a>
+							<a href="" class="primary-btn">Conheça mais</a>
 						</div>
 					</div>
 					<div class="col-lg-7 col-md-6 text-center no-padding about-right">
@@ -173,7 +173,7 @@
 							Omeria
 						</h1>
 						<p>Em <b>Omeria</b> há diversas raças, criadas somente para este cenário. Mais de 20 raças onde o <i>balanceamento</i> e o <i>flavor</i> foram suas principais pilares.</p>
-						<a href="omeria.php" class="primary-btn text-uppercase">Leia mais</a>
+						<a href="#" class="primary-btn text-uppercase">Leia mais</a>
 					</div>
 				</div>
 				<div class="col-lg-7 col-md-7">
