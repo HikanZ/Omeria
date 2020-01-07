@@ -47,7 +47,7 @@
 						<a href="party.html">Party</a>
 					</div>
 					<div class="col-3 logo">
-						<a href="index.html"><img class="mx-auto" src="img/logo.png" alt=""></a>
+						<a href="index.php"><img class="mx-auto" src="img/logo.png" alt=""></a>
 					</div>
 					<nav class="col navbar navbar-expand-md justify-content-end">
 
