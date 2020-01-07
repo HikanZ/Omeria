@@ -71,7 +71,7 @@
 								<!-- Dropdown -->
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-										Homebrew
+										Forja
 									</a>
 									<div class="dropdown-menu">
 										<a class="dropdown-item" href="contact.html">Contact</a>
@@ -80,7 +80,7 @@
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-										Sessões
+										Diário
 									</a>
 									<div class="dropdown-menu">
 										<a class="dropdown-item" href="blog-home.html">Blog</a>

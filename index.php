@@ -71,7 +71,7 @@
 								<!-- Dropdown -->
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-										Homebrew
+										Forja
 									</a>
 									<div class="dropdown-menu">
 										<a class="dropdown-item" href="contact.html">Contato?</a>
@@ -80,7 +80,7 @@
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-										Sessões
+										Diário
 									</a>
 									<div class="dropdown-menu">
 										<a class="dropdown-item" href="blog-home.html">Blog</a>
@@ -179,11 +179,72 @@
 				<div class="col-lg-7 col-md-7">
 					<div class="menu-list">
 						<div class="single-menu">
-							<h3>Raças</h3>
-							<ul class="list">
+									<div class="row" style="margin-left: 10px; margin-right: 10px;">
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service1.png" alt="">
+												<h4>Pendragon</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service2.png" alt="">
+												<h4>Elfanir</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service3.png" alt="">
+												<h4>Hartlif</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service4.png" alt="">
+												<h4>Nero</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service5.png" alt="">
+												<h4>Blutenza</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service6.png" alt="">
+												<h4>Obscur</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service7.png" alt="">
+												<h4>Faisto</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service8.png" alt="">
+												<h4>Khuma</h4>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-md-3">
+											<div class="single-service" style="margin-bottom: 20px;">
+												<img class="img-fluid" src="img/service9.png" alt="">
+												<h4>Asheri</h4>
+											</div>
+										</div>
+									</div>
+							<!--ul class="list">
 								<li>
-									<p class="menu-item">Blutenza</p>
-									<p>Um rabo que balança de alegria ou que vai para o meio das pernas ao sentir medo. <br> Esses humanóides caninos são leais e honestos.</p>
+									<section class="service-area section-gap">
+										<div class="col-lg-3 col-sm-6 col-md-3">
+											<div class="single-service">
+												<img class="img-fluid" src="img/service1.jpg" alt="">
+												<h4>Stylish Hair Cutting</h4>
+											</div>
+										</div>
+									</section>
 								</li>
 								<li>
 									<p class="menu-item">Elfanir</p>
@@ -209,7 +270,7 @@
 									<p>...e muito mais...</p>
 								</li>
 								</li>
-							</ul>
+							</ul-->
 						</div>
 
 						<!--div class="single-menu">
