@@ -41,10 +41,12 @@
 		<div class="container">
 			<div class="header-wrap">
 				<div class="header-top d-flex justify-content-between align-items-center navbar-expand-md">
-					<div class="col menu-left">
-						<a class="active" href="index.php">Home</a>
-						<a href="omeria.php">Mundo</a>
-						<a href="party.html">Party</a>
+					<div class="col menu-left ">
+						<div class="d-flex justify-content-around">
+							<a class="active" href="index.php">Home</a>
+							<a href="omeria.php">Mundo</a>
+							<a href="party.html">Party</a>
+						</div>
 					</div>
 					<div class="col-3 logo">
 						<a href="index.php"><img class="mx-auto" src="img/logo.png" alt=""></a>
@@ -58,7 +60,7 @@
 
 						<!-- Navbar links -->
 						<div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
-							<ul class="navbar-nav justify-content-center w-100">
+							<ul class="navbar-nav justify-content-around w-100">
 								<li class="nav-item hide-lg">
 									<a class="nav-link" href="index.php">Home</a>
 								</li>
