@@ -1781,19 +1781,19 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   text-align: center; }
   .logo img {
-    width: 27%; }
+  width: 30%; }
     @media (max-width: 767px) {
       .logo img {
-        width: 16%; } }
+        width: 50%; } }
     @media (max-width: 576px) {
       .logo img {
-        width: 24%; } }
+        width: 40%; } }
     @media (max-width: 480px) {
       .logo img {
-        width: 35%; } }
+        width: 80%; } }
     @media (max-width: 320px) {
       .logo img {
-        width: 75%; } }
+        width: 130%; } }
   @media (max-width: 767px) {
     .logo {
       position: absolute;
@@ -1852,7 +1852,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu-left {
   text-align: center; }
   .menu-left a {
-    margin-right: 32px;
+    //margin-right: 32px;
     color: #000;
     letter-spacing: 2px;
     text-transform: uppercase;
