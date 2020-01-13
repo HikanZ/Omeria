@@ -3343,6 +3343,42 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+@media (max-width: 1600px) {
+  .flip-card-container {
+    width: 250px; height: 400px; font-size: 10px;}
+}
+
+@media (max-width: 1450px) {
+  .flip-card-container {
+    width: 230px; height: 380px;}
+  }
+@media (max-width: 1350px) {
+  .flip-card-container {
+    width: 200px; height: 380px;} }
+@media (max-width: 1150px) {
+  .flip-card-container {
+    width: 180px; height: 380px;} }
+@media (max-width: 1050px) {
+  .flip-card-container {
+    width: 150px; height: 380px;} }
+@media (max-width: 1050px) {
+  .flip-card-container {
+    width: 130px; height: 380px;} }
+
+@media (max-width: 768px) {
+  .flip-card-container {
+    width: 300px; height: 450px;} }
+
+/*@media (max-width: 576px) {
+  .logo img {
+    width: 40%; } }
+@media (max-width: 480px) {
+  .logo img {
+    width: 80%; } }
+@media (max-width: 320px) {
+  .logo img {
+    width: 130%; } }*/
+
 /* .flip-card */
 .flip-card {
   width: inherit;
@@ -3444,6 +3480,8 @@ h1, h2, h3, h4, h5, h6 {
   clip-path: polygon(0 40%, 100% 60%, 100% 100%, 0 100%);
 }
 
+
+
 .card-front .img-bg::before {
   content: "";
 
@@ -3459,6 +3497,44 @@ h1, h2, h3, h4, h5, h6 {
   border-right-color: transparent;
 
   transition: .1s;
+}
+
+@media (max-width: 1550px) {
+  .card-front .img-bg {
+    clip-path: polygon(0 30%, 100% 50%, 100% 100%, 0 100%);}
+  .card-front .img-bg::before {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(18deg);}
+}
+@media (max-width: 1150px) {
+  .card-front .img-bg {
+    clip-path: polygon(0 25%, 100% 35%, 100% 100%, 0 100%);}
+  .card-front .img-bg::before {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(12deg);}
+}
+@media (max-width: 1050px) {
+  .card-front .img-bg {
+    clip-path: polygon(0 18%, 100% 25%, 100% 100%, 0 100%);}
+  .card-front .img-bg::before {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(12deg);}
+}
+
+@media (max-width: 768px) {
+  .card-front .img-bg {
+    clip-path: polygon(0 40%, 100% 60%, 100% 100%, 0 100%);}
+  .card-front .img-bg::before {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(17deg);}
 }
 
 .card-back .img-bg {
@@ -3491,7 +3567,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ul */
 .flip-card-container ul {
-  padding-top: 95%;
+  padding-top: 90%;
   margin: 0 auto;
   width: 70%;
   height: 100%;
@@ -3515,6 +3591,30 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 
   position: relative;
+}
+
+@media (max-width: 1550px) {
+  .flip-card-container ul {
+    padding-top: 80%;}
+  .flip-card-container li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 14px;}
+}
+@media (max-width: 1350px) {
+  .flip-card-container ul {
+    padding-top: 80%;}
+  .flip-card-container li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 12px;}
+}
+@media (max-width: 1050px) {
+}
+
+@media (max-width: 768px) {
 }
 
 .flip-card-container li:nth-child(2n) {
@@ -3671,3 +3771,297 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* end card party flip */
+
+
+.menu {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: none;
+  bottom: 20px;
+  left: 20px;
+}
+
+.menu:hover {
+  pointer-events: all;
+}
+
+.label {
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+
+.spacer {
+  display: inline-block;
+  width: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  color: #bb9236;
+}
+.spacer:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #bb9236;
+  height: 1px;
+  width: 0%;
+  transition: width 0.25s ease;
+  transition-delay: 0.5s;
+}
+.item {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+  transition-delay: 0;
+}
+span {
+  transition: color 0.1s ease;
+}
+.item:hover span {
+  color: #bb9236;
+}
+.menu:hover .spacer:before {
+  width: 100%;
+  transition-delay: 0s;
+}
+.menu:hover .item {
+  opacity: 1;
+  top: 0px;
+}
+.item:nth-child(1) {
+  transition-delay: 0.65s;
+}
+.item:nth-child(2) {
+  transition-delay: 0.6s;
+}
+.item:nth-child(3) {
+  transition-delay: 0.55s;
+}
+.item:nth-child(4) {
+  transition-delay: 0.5s;
+}
+.item:nth-child(5) {
+  transition-delay: 0.45s;
+}
+.item:nth-child(6) {
+  transition-delay: 0.4s;
+}
+.item:nth-child(7) {
+  transition-delay: 0.35s;
+}
+.item:nth-child(8) {
+  transition-delay: 0.3s;
+}
+.item:nth-child(9) {
+  transition-delay: 0.25s;
+}
+.item:nth-child(10) {
+  transition-delay: 2s;
+}
+.menu:hover .item:nth-child(1) {
+  transition-delay: 0.2s;
+}
+.menu:hover .item:nth-child(2) {
+  transition-delay: 0.25s;
+}
+.menu:hover .item:nth-child(3) {
+  transition-delay: 0.30s;
+}
+.menu:hover .item:nth-child(4) {
+  transition-delay: 0.35s;
+}
+.menu:hover .item:nth-child(5) {
+  transition-delay: 0.4s;
+}
+.menu:hover .item:nth-child(6) {
+  transition-delay: 0.45s;
+}
+.menu:hover .item:nth-child(7) {
+  transition-delay: 0.5s;
+}
+.menu:hover .item:nth-child(8) {
+  transition-delay: 0.55s;
+}
+.menu:hover .item:nth-child(9) {
+  transition-delay: 0.6s;
+}
+.menu:hover .item:nth-child(10) {
+  transition-delay: 0.65s;
+}
+
+/* Site footer Omeria */
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:20px 0 10px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#bb9236;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/* Site footer Omeria END */
