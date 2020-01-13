@@ -117,7 +117,7 @@
 
 	<!--================ Left Right And Banner Icon =================-->
 	<div class="go-down">
-		<a href="#menu_area">
+		<a href="#">
 			<img class="go-down-img" src="img/go-down.png" alt="">
 		</a>
 	</div>
@@ -145,8 +145,8 @@
 				<div class="single-about row align-items-center">
 					<div class="col-lg-4 col-md-6 no-padding about-left">
 						<div class="about-content">
-							<h1>Omeria é um mundo <br> de alta fantasia</h1>
-							<p align="justify">inspirado de diversas fontes da cultura pop. Indo de regiões onde magos são o pilar da sociedade ou onde são considerados os piores. Balões mágicos e navios voadores e muito mais.</p>
+							<h1 data-tooltip="Cenário criado por Guilherme K. e Barbara S."><b>OMERIA</b> é um cenário <br> de alta fantasia</h1>
+							<p align="justify">Os <b>dragões</b> e os <b>gigantes</b> foram extintos e uma guerra de grande escala contra humanóides são as características que marcam Omeria.</p>
 							<a href="omeria.php" class="primary-btn">Conheça mais</a>
 						</div>
 					</div>
