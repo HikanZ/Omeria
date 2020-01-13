@@ -189,7 +189,36 @@
 	</section>
 
 	<!--================ End Party Area =================-->
-	<section class="whole-wrap section-gap-top"> Footer </section>
+	<!--================ Start Footer Area =================-->
+	<!-- Site footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-6 col-xs-12">
+					<div class="menu">
+						<div class="label">Redes Sociais</div>
+						<div class="spacer"></div>
+						<div class="item" onclick="window.open('https://twitter.com/CronicasOmeria',
+	'_blank');" ><span>Twitter</span></div>
+						<div class="item" onclick="window.open('https://www.instagram.com/cronicasomeria/',
+	'_blank');" ><span>Instagram</span></div>
+						<!--div class="item"><span>Facebook</span></div-->
+					</div>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-6 col-xs-12">
+					<p class="copyright-text" style="fontfont-size: 6px !important; margin-bottom: 5px;">Copyright © 2018 All rights reserved | This template is made with
+						<span class="lnr lnr-heart"></span> by <a href="https://colorlib.com/" target="_blank">Colorlib</a> | Redesigned with a lot of effort by Zer0nos.
+					</p>
+				</div>
+			</div>
+		</div>
+</footer>
+	<!--================ End Footer Area =================-->
 
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
