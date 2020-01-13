@@ -146,7 +146,7 @@
 					<div class="col-lg-4 col-md-6 no-padding about-left">
 						<div class="about-content">
 							<h1>Omeria é um mundo <br> de alta fantasia</h1>
-							<p>inspirado de diversas fontes da cultura pop. Indo de regiões onde magos são o pilar da sociedade ou onde são considerados os piores. Balões mágicos e navios voadores e muito mais.</p>
+							<p align="justify">inspirado de diversas fontes da cultura pop. Indo de regiões onde magos são o pilar da sociedade ou onde são considerados os piores. Balões mágicos e navios voadores e muito mais.</p>
 							<a href="omeria.php" class="primary-btn">Conheça mais</a>
 						</div>
 					</div>
@@ -174,7 +174,7 @@
 							de <br>
 							Omeria
 						</h1>
-						<p>Em <b>Omeria</b> há diversas raças, criadas somente para este cenário. Mais de 20 raças onde o <i>balanceamento</i> e o <i>flavor</i> foram suas principais pilares.</p>
+						<p align="justify">Em <b>Omeria</b> há diversas raças, criadas somente para este cenário. Mais de 20 raças onde o <i>balanceamento</i> e o <i>flavor</i> foram suas principais pilares.</p>
 						<a href="omeria.php" class="primary-btn text-uppercase">Leia mais</a>
 					</div>
 				</div>
@@ -552,11 +552,28 @@
 	</section -->
 	<!--================ End Contact Area =================-->
 
+	<!--footer class="footer-area section-gap" style="background-color: white">
+		<div class="container fullwidth">
+			<div class="menu">
+			  <div class="label">Siga-nos</div>
+			  <div class="spacer"></div>
+			  <div class="item"><span>Twitter</span></div>
+			  <div class="item"><span>Instagram</span></div>
+			  <div class="item"><span>Flickr</span></div>
+			  <div class="item"><span>Behance</span></div>
+			  <div class="item"><span>MixCloud</span></div>
+			</div>
+			<div class"menu-left-footer"> Copyright © 2018 All rights reserved | This template is made with
+				<span class="lnr lnr-heart"></span> by <a href="https://colorlib.com/" target="_blank">Colorlib
+			</div>
+		</div>
+</footer-->
+
 	<!--================ Start Footer Area =================-->
-	<footer class="footer-area section-gap">
+	<!--footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
-				<!-- div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget">
 						<h4>Top Products</h4>
 						<ul>
@@ -620,7 +637,7 @@
 							</form>
 						</div>
 					</div>
-				</div-->
+				</div>
 			</div>
 			<div class="footer-bottom row align-items-center justify-content-between">
 				<p class="footer-text m-0 col-lg-6 col-md-12">Copyright © 2018 All rights reserved | This template is made with
@@ -633,7 +650,45 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer-->
+
+	<!-- Site footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-6 col-xs-12">
+					<div class="menu">
+					  <div class="label">Redes Sociais</div>
+					  <div class="spacer"></div>
+					  <div class="item" onclick="window.open('https://twitter.com/CronicasOmeria',
+  '_blank');" ><span>Twitter</span></div>
+					  <div class="item" onclick="window.open('https://www.instagram.com/cronicasomeria/',
+  '_blank');" ><span>Instagram</span></div>
+					  <!--div class="item"><span>Facebook</span></div-->
+					</div>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-6 col-xs-12">
+					<p class="copyright-text" style="fontfont-size: 6px !important; margin-bottom: 5px;">Copyright © 2018 All rights reserved | This template is made with
+						<span class="lnr lnr-heart"></span> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>.
+					</p>
+				</div>
+
+				<!--div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="social-icons">
+						<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div-->
+			</div>
+		</div>
+</footer>
 	<!--================ End Footer Area =================-->
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
